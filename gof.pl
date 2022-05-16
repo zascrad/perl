@@ -35,7 +35,6 @@ sub renderGrid {
 	print $render;
 }
 
-# render grid and return new evaluated grid
 sub evaluateGrid {
 	my $row = 0;
 	foreach my $rowValue (@grid) {
